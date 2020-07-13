@@ -1,12 +1,12 @@
-##Build a ToDo List Node.js RESTful API
+# Build a ToDo List Node.js RESTful API
 
-#Tools (With Appropriate Links):
+## Tools (With Appropriate Links):
 * [Node.js](https://nodejs.org/en/)
 * [MongoDB](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/)
 * Text Editor (_I used VS Code_)
 * [Postman](https://www.postman.com/downloads/)
 
-#Getting Started:
+## Getting Started:
 
 Make sure your environment is already set up, .i.e. Node.js and MongoDB is installed.
 
@@ -16,12 +16,12 @@ _If you don't have it installed, I've provided the links along with the tools._
 
 >A basic knowledge about Nodejs and Mongo would suffice for you to create your first API.
 
-#Additional Tools:
+## Additional Tools:
 
 * We'll use express to set up a server, install it using ``` npm install express --save ```
 * Secondly, we'll use nodemon to keep track of the changes and restarting the server automatically. Install it using ``` npm install --save-dev nodemon ```
 
-#To Understand and Run the API:
+## To Understand and Run the API:
 
 * Clone the repo.
 * Notice he Self Explanatory schema/model using Mongoose in api -> models
@@ -32,10 +32,10 @@ _If you don't have it installed, I've provided the links along with the tools._
     * Loads the created model.
     * Installs bodyParser and use it to parse the body for the middlewares otherwise middlewares return an empty object.
     * Register our created routes in the server
-* Start the MongoDB server using ``` mogod ```
+* Start the MongoDB server using ``` mongod ```
 * Refresh the node server by running ``` rs ```
 
-#Testing via Postman:
+## Testing via Postman:
 
 * Open up Postman and type : ``` http://localhost:3000/tasks ``` in the url bar and press enter.
 > This would return a [] because the databse is empty :) Let's stack up the databse.
@@ -55,4 +55,4 @@ app.use(function(req, res) {
 });
 ```
 That's it folks! 
-By @pulkitm404
+By [@pulkitm404](https://github.com/pulkitm404)
