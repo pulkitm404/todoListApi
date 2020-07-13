@@ -24,7 +24,7 @@ _If you don't have it installed, I've provided the links along with the tools._
 ## To Understand and Run the API:
 
 * Clone the repo.
-* Notice he Self Explanatory schema/model using Mongoose in api -> models
+* Notice the Self Explanatory schema/model using Mongoose in api -> models
 * The Routes being setup for our API calls in api -> routes, do you see some _predefined functions_ over there? Calm down. Next Point.
 * The Controller ( api -> controllers ) defines all the functions used in the Routes. These functions use some basic Mongoose queries such as _find_ , _findById_ etc.
 * Finally I've combined these elements in the server.js file with a little bit of parsing, registering and encoding which basically :
